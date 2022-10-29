@@ -1,10 +1,9 @@
-import { CreditCardForm } from "./components/molecules/Form/CreditCardForm"
+import { Home } from "./pages/Home"
 
 
 function App() {
-  return (<>
-  <CreditCardForm style={{margin: 'auto', paddingTop: 100}}/>
-    </>
+  return (
+      <Home/>
   )
 }
 
