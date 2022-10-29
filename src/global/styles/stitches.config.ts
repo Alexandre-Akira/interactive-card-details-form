@@ -15,7 +15,8 @@ export const {
       white: '#FFFFFF',
       light_grey: '#DFDEE0',
       deep_violet: '#21092F',
-      gradient: 'linear-gradient(#6348FE, #610595)'
+      gradient: 'linear-gradient(#6348FE, #610595)',
+      red: '#FF5050',
     },
 
     fonts: {
