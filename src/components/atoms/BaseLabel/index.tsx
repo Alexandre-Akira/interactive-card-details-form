@@ -1,7 +1,7 @@
-import { InputHTMLAttributes } from 'react';
+import { LabelHTMLAttributes } from 'react';
 import * as S from './styles'
 
-export interface IBaseLabelProps extends Omit<InputHTMLAttributes<HTMLLabelElement>, 'css'>{
+export interface IBaseLabelProps extends Omit<LabelHTMLAttributes<HTMLLabelElement>, 'css'>{
 children: string,
 }
 
